@@ -1,0 +1,21 @@
+#home-panel{
+	background:#eee;
+	padding:2rem 0;
+}
+
+#home-news{
+	background:#ddd;
+	padding:2rem 0;
+	margin-bottom:3rem;
+
+	
+}
+
+#home-sponsors{
+	@include center-text;
+
+	h4{
+		color:#aaa;
+	}
+}
+

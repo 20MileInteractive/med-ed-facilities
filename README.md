@@ -1,4 +1,4 @@
-med-ed-facilities
-=================
+MedEd Facilities
+========================
 
-Full Website for MedEd Facilities
+Website project for the MedEd Facilities conference and tradeshow.

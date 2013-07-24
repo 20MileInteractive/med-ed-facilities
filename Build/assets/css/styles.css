@@ -4271,6 +4271,9 @@ a.th {
   .f-dropdown.large {
     max-width: 800px; }
 
+footer div p {
+  font-size: 1rem; }
+
 .style-guide section {
   padding: 1em 0; }
 

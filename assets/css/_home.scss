@@ -1,6 +1,34 @@
-#home-panel{
+#home-panel {
 	background:#eee;
-	padding:2rem 0;
+
+	.lead {
+		@include center-text;
+		padding:3rem 2rem;
+	}
+
+	.large-4 {
+		overflow:hidden;
+		
+		a {
+			background:rgba(140,140,140,.5);
+			display:block;
+			@include center-text;
+			height:150px;
+			width:150px;
+			line-height:150px;
+			border-radius:100%;
+			color:#fff;
+
+		}
+
+		a#exhibitors {
+			position:absolute;
+			top:-25px;
+			right:-25px;
+		}
+
+
+	}
 }
 
 #home-news{
@@ -20,7 +48,7 @@
 }
 
 div.exhibitors{
-	
+
 }
 
 

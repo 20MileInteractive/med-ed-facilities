@@ -4379,8 +4379,25 @@ p#teaser {
   text-align: center; }
 
 #home-panel {
-  background: #eee;
-  padding: 2rem 0; }
+  background: #eee; }
+  #home-panel .lead {
+    text-align: center;
+    padding: 3rem 2rem; }
+  #home-panel .large-4 {
+    overflow: hidden; }
+    #home-panel .large-4 a {
+      background: rgba(140, 140, 140, 0.5);
+      display: block;
+      text-align: center;
+      height: 150px;
+      width: 150px;
+      line-height: 150px;
+      border-radius: 100%;
+      color: #fff; }
+    #home-panel .large-4 a#exhibitors {
+      position: absolute;
+      top: -25px;
+      right: -25px; }
 
 #home-news {
   background: #ddd;

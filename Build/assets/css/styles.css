@@ -4378,13 +4378,155 @@ header {
 p#teaser {
   text-align: center; }
 
+@-webkit-keyframes exhibitors {
+  from {
+    top: -150px;
+    opacity: 0; }
+
+  to {
+    top: -15px;
+    opacity: 100; } }
+
+@-moz-keyframes exhibitors {
+  from {
+    top: -150px;
+    opacity: 0; }
+
+  to {
+    top: -15px;
+    opacity: 100; } }
+
+@-o-keyframes exhibitors {
+  from {
+    top: -150px;
+    opacity: 0; }
+
+  to {
+    top: -15px;
+    opacity: 100; } }
+
+@keyframes exhibitors {
+  from {
+    top: -150px;
+    opacity: 0; }
+
+  to {
+    top: -15px;
+    opacity: 100; } }
+
+@-webkit-keyframes speakers {
+  0% {
+    right: 260px;
+    opacity: 0; }
+
+  50% {
+    right: 260px;
+    opacity: 0; }
+
+  100% {
+    right: 160px;
+    opacity: 100; } }
+
+@-moz-keyframes speakers {
+  0% {
+    right: 260px;
+    opacity: 0; }
+
+  50% {
+    right: 260px;
+    opacity: 0; }
+
+  100% {
+    right: 160px;
+    opacity: 100; } }
+
+@-o-keyframes speakers {
+  0% {
+    right: 260px;
+    opacity: 0; }
+
+  50% {
+    right: 260px;
+    opacity: 0; }
+
+  100% {
+    right: 160px;
+    opacity: 100; } }
+
+@keyframes speakers {
+  0% {
+    right: 260px;
+    opacity: 0; }
+
+  50% {
+    right: 260px;
+    opacity: 0; }
+
+  100% {
+    right: 160px;
+    opacity: 100; } }
+
+@-webkit-keyframes attendees {
+  0% {
+    top: 300px;
+    opacity: 0; }
+
+  70% {
+    top: 300px;
+    opacity: 0; }
+
+  100% {
+    top: 100px;
+    opacity: 100; } }
+
+@-moz-keyframes attendees {
+  0% {
+    top: 300px;
+    opacity: 0; }
+
+  70% {
+    top: 300px;
+    opacity: 0; }
+
+  100% {
+    top: 100px;
+    opacity: 100; } }
+
+@-o-keyframes attendees {
+  0% {
+    top: 300px;
+    opacity: 0; }
+
+  70% {
+    top: 300px;
+    opacity: 0; }
+
+  100% {
+    top: 100px;
+    opacity: 100; } }
+
+@keyframes attendees {
+  0% {
+    top: 300px;
+    opacity: 0; }
+
+  70% {
+    top: 300px;
+    opacity: 0; }
+
+  100% {
+    top: 100px;
+    opacity: 100; } }
+
 #home-panel {
   background: #eee; }
   #home-panel .lead {
     text-align: center;
     padding: 3rem 2rem; }
   #home-panel .large-4 {
-    overflow: hidden; }
+    overflow: hidden;
+    min-height: 300px;
+    background: #ccc; }
     #home-panel .large-4 a {
       background: rgba(140, 140, 140, 0.5);
       display: block;
@@ -4396,8 +4538,25 @@ p#teaser {
       color: #fff; }
     #home-panel .large-4 a#exhibitors {
       position: absolute;
-      top: -25px;
-      right: -25px; }
+      top: -15px;
+      right: 50px;
+      -webkit-animation: exhibitors 0.8s ease-out;
+      -moz-animation: exhibitors 0.8s ease-out;
+      animation: exhibitors 0.8s ease-out; }
+    #home-panel .large-4 a#speakers {
+      position: absolute;
+      top: 50px;
+      right: 160px;
+      -webkit-animation: speakers 1s ease-out;
+      -moz-animation: speakers 1s ease-out;
+      animation: speakers 1s ease-out; }
+    #home-panel .large-4 a#attendees {
+      position: absolute;
+      top: 100px;
+      right: 50px;
+      -webkit-animation: attendees 1.2s ease-out;
+      -moz-animation: attendees 1.2s ease-out;
+      animation: attendees 1.2s ease-out; }
 
 #home-news {
   background: #ddd;

@@ -1,3 +1,54 @@
+@include keyframes(exhibitors) {
+	from{
+		top:-150px;
+		opacity:0;
+	}
+
+	to{
+		top:-15px;
+		opacity:100;
+	}
+
+}
+
+@include keyframes(speakers) {
+	0%{
+		right:260px;
+		opacity:0;
+	}
+
+	50%{
+		right:260px;
+		opacity:0;
+	}
+
+
+	100%{
+		right: 160px;
+		opacity:100;
+	}
+
+}
+
+@include keyframes(attendees) {
+	0%{
+		top:300px;
+		opacity:0;
+	}
+
+	70%{
+		top:300px;
+		opacity:0;
+	}
+
+
+	100%{
+		top: 100px;
+		opacity:100;
+	}
+
+}
+
 #home-panel {
 	background:#eee;
 
@@ -8,6 +59,8 @@
 
 	.large-4 {
 		overflow:hidden;
+		min-height: 300px;
+		background:#ccc;
 		
 		a {
 			background:rgba(140,140,140,.5);
@@ -23,10 +76,26 @@
 
 		a#exhibitors {
 			position:absolute;
-			top:-25px;
-			right:-25px;
+			top:-15px;
+			right:50px;
+			@include animation(exhibitors .8s ease-out);
 		}
 
+
+		a#speakers {
+			position:absolute;
+			top:50px;
+			right:160px;
+			@include animation(speakers 1s ease-out);
+
+		}
+
+		a#attendees {
+			position:absolute;
+			top:100px;
+			right:50px;
+			@include animation(attendees 1.2s ease-out);
+		}
 
 	}
 }

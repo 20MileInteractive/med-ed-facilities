@@ -4274,6 +4274,9 @@ a.th {
 footer div p {
   font-size: 1rem; }
 
+ul, ol {
+  list-style-position: inside; }
+
 .style-guide section {
   padding: 1em 0; }
 
@@ -4377,6 +4380,15 @@ header {
 
 p#teaser {
   text-align: center; }
+
+div.ads {
+  margin-top: 3rem; }
+  div.ads h5 {
+    text-align: center;
+    font-weight: normal;
+    color: #555; }
+  div.ads h6 {
+    text-align: center; }
 
 @-webkit-keyframes exhibitors {
   from {
@@ -4567,3 +4579,36 @@ p#teaser {
   text-align: center; }
   #home-sponsors h4 {
     color: #aaa; }
+
+.interior-container div.first {
+  padding: 250px 0 0 0;
+  background: url(http://placehold.it/1000x500&text=background-photo) center top no-repeat;
+  margin-bottom: 3rem; }
+.interior-container .large-4 div {
+  background: #999;
+  padding: 1rem 1rem 0 1rem; }
+.interior-container div.exhibitor-entry:nth-child(odd) {
+  background: #eee; }
+.interior-container div.exhibitor-entry p {
+  margin: .5rem 0; }
+.interior-container div.exhibitor-entry p:first-child {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 83.33333%;
+  float: left; }
+.interior-container div.exhibitor-entry p:last-child {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 16.66667%;
+  float: left; }
+
+@media only screen and (min-width: 768px) {
+  .interior-container div.first {
+    padding: 2.5rem 0;
+    background: url(http://placehold.it/1000x500&text=background-photo) center top no-repeat; } }
+section.sponsor-block {
+  margin-bottom: 2.5rem; }
+  section.sponsor-block h3 {
+    border-bottom: 5px solid #eee; }

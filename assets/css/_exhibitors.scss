@@ -1,0 +1,52 @@
+.interior-container{
+
+
+	
+	div.first {
+		padding:250px 0 0 0;
+		background:url(http://placehold.it/1000x500&text=background-photo) center top no-repeat;
+		margin-bottom:3rem;
+	}
+
+
+	.large-4 {
+
+		div {
+			background:#999;
+			padding:1rem 1rem 0 1rem;
+		}
+	}
+
+	div.exhibitor-entry {
+		&:nth-child(odd) {
+			background: #eee;
+		}
+
+		p {
+			margin:.5rem 0;
+		}
+
+		p:first-child {
+			@include grid-column(10);
+		}
+
+		p:last-child {
+			@include grid-column(2);
+		}		
+	}
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+	.interior-container{
+		
+		div.first {
+			padding:2.5rem 0;
+			background:url(http://placehold.it/1000x500&text=background-photo) center top no-repeat;
+		}
+	}	
+
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedEd Facilities</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+</head>
+<body>
+
+<header>
+	<div class="row">
+		<div class="large-4 small-12 push-8 columns">
+			<div class="row">
+				<a href="#" class="small-6 columns button secondary">Login</a>
+				<a href="#" class="small-6 columns button">Register</a>
+			</div>
+		</div>
+		<div class="large-4 small-12 pull-8 columns">
+			<a href="index.html"><img src="http://placehold.it/800x300&text=logo"/></a>
+		</div>
+	</div>
+</header>
+<div class="row">
+	<div class="large-12 columns">
+		<nav contain-to-grid class="top-bar">
+			<ul class="title-area">
+			    <li class="name">
+      				<h1><a href="#"></a></h1>
+   				 </li>
+    			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  			</ul>
+			<section class="top-bar-section">
+			  	<ul class="left">
+			    	<li class="divider"></li>
+			    	<li class="has-dropdown"><a href="#">General Info</a>
+				     	<ul class="dropdown">
+					        <li><a href="#">Location</a></li>
+					        <li class="divider"></li>
+					        <li><a href="#">Schedule</a></li>
+					        <li class="divider"></li>
+					        <li><a href="#">Hotel &amp; Travel</a></li>
+					        <li class="divider"></li>
+					        <li><a href="#">News &amp; Updates</a></li>
+					        <li class="divider"></li>
+				      	</ul>
+			  		</li>
+			    	<li class="divider"></li>
+			    	<li class="has-dropdown"><a href="#">Conference</a>
+				     	<ul class="dropdown">
+					        <li><a href="#">Schedule</a></li>
+					        <li class="divider"></li>
+					        <li><a href="#">Speakers</a></li>
+					        <li class="divider"></li>
+					        <li><a href="#">Networking</a></li>
+					        <li class="divider"></li>
+				      	</ul>
+			  		</li>
+			    	<li class="divider"></li>
+			    	<li><a href="exhibitors.html">Exhibitors</a></li>
+			    	<li class="divider"></li>
+			    	<li><a href="sponsors.html">Sponsors</a></li>
+			    	<li class="divider"></li>			    	   	
+			    	<li><a href="#">Contact</a>
+				</ul>
+			</section>
+		</nav>
+	</div>
+</div>
+<div class="interior-container">
+	<div class="row">
+		<h3 class="large-12 columns">Location Page Title</h3>
+		<section class="large-4 columns">
+			<img src="http://placehold.it/800x600&text=hotel"/>
+		</section>
+		<section class="large-8 columns">
+			<h5>Location Title Goes Here</h5>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.
+			</p>
+		</section>
+	</div>
+</div>
+
+<div class="ads row">
+<section class="large-12 columns">
+	<h5>Brought To You By:</h5>	
+	<ul class="small-block-grid-2 large-block-grid-4">
+		<li><a href="#"><img src="http://placehold.it/300x225&text=ad"/></a></li>
+		<li><a href="#"><img src="http://placehold.it/300x225&text=ad"/></a></li>
+		<li><a href="#"><img src="http://placehold.it/300x225&text=ad"/></a></li>
+		<li><a href="#"><img src="http://placehold.it/300x225&text=ad"/></a></li>
+	</ul>
+	<h6><a href="#">See Sponsor &amp; Advertising Opportunities</a></h6>
+</section>
+</div>
+<footer>
+	<div class="row">
+		<p>MedEd Facilities Contact Information Goes Here</p>
+		<p>
+			<a href="#">Twitter</a>
+			<a href="#">Facebook</a>
+		</p>
+	</div>
+</footer>
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/foundation/foundation.js'></script>
+    <script src='assets/js/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/foundation/foundation.forms.js'></script>
+    <script src='assets/js/foundation/foundation.interchange.js'></script>    
+    <script src='assets/js/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/foundation/foundation.section.js'></script>
+    <script src='assets/js/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/foundation/foundation.topbar.js'></script>
+    <script src='assets/js/foundation/index.js'></script>
+	<script src='assets/js/script.js'></script>
+    <script src='assets/js/home-panels.js'></script>    
+</body>
+</html>

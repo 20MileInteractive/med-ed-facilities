@@ -1,5 +1,10 @@
 // Base style sheet
 
+body {
+	background: url(cover-bg.jpg);
+	background-attachment: fixed;
+}
+
 @mixin center-text{
 	text-align:center;
 }

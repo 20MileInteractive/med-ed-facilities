@@ -1,4 +1,3 @@
-$ ->
 	$(document).foundation()
 
 	$('.description').addClass('animated');
@@ -6,4 +5,3 @@ $ ->
 		
     	$(this).next('.description').toggleClass( 'flipInX' );
   	});
-	

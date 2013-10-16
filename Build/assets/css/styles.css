@@ -7692,6 +7692,9 @@ header {
 p#teaser {
   text-align: center; }
 
+.top-bar-section li a.register {
+  color: #bed889; }
+
 div.ads {
   margin-top: 3rem; }
   div.ads h5 {
@@ -7860,7 +7863,7 @@ div.ads {
     background: url(../img/callout-1.png) no-repeat 50% 50%;
     background-size: 100% auto;
     position: absolute;
-    top: -15px;
+    top: -45px;
     right: 50px;
     -webkit-animation: exhibitors 0.8s ease-out;
     -moz-animation: exhibitors 0.8s ease-out;
@@ -7869,8 +7872,8 @@ div.ads {
     background: url(../img/callout-2.png) no-repeat 50% 50%;
     background-size: 100% auto;
     position: absolute;
-    top: 50px;
-    right: 160px;
+    top: 30px;
+    right: 220px;
     -webkit-animation: speakers 1s ease-out;
     -moz-animation: speakers 1s ease-out;
     animation: speakers 1s ease-out; }
@@ -7901,6 +7904,11 @@ div.ads {
   text-align: center; }
   #home-sponsors h4 {
     color: #aaa; }
+
+p.tagline {
+  color: #fff; }
+  p.tagline b {
+    letter-spacing: .15em; }
 
 .interior-container div.first {
   padding: 250px 0 0 0;

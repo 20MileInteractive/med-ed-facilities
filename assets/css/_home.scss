@@ -79,7 +79,8 @@
 			background: url(callout-1.png) no-repeat 50% 50%;
 			background-size: 100% auto;
 			position:absolute;
-			top:-15px;
+			// changed from top: -15px; right: 50px;
+			top:-45px;
 			right:50px;
 			@include animation(exhibitors .8s ease-out);
 		}
@@ -89,8 +90,9 @@
 			background: url(callout-2.png) no-repeat 50% 50%;
 			background-size: 100% auto;
 			position:absolute;
-			top:50px;
-			right:160px;
+			// changed from top: 50px; right: 160px;
+			top:30px;
+			right:220px;
 			@include animation(speakers 1s ease-out);
 
 		}
@@ -134,4 +136,9 @@ div.exhibitors{
 
 }
 
-
+p.tagline {
+	color:#fff;
+	b {
+		letter-spacing: .15em;
+	}
+}

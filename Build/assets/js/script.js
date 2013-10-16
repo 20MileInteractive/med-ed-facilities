@@ -1,6 +1,9 @@
-(function() {
-  $(function() {
-    return $(document).foundation();
-  });
+$ ->
+	$(document).foundation()
 
-}).call(this);
+	$('.description').addClass('animated');
+	$('.sessionTrigger').click(function(){
+		
+    	$(this).next('.description').toggleClass( 'flipInX' );
+  	});
+	

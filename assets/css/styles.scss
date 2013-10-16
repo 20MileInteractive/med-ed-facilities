@@ -10,6 +10,9 @@
 // Site specific styles
 @import "base";
 
+// Animations
+@import "animate.min";
+
 // Style guide 
 @import "style_guide";
 
@@ -27,3 +30,6 @@
 
 // Sppnsor pages
 @import "sponsors";
+
+// Schedule pages
+@import "schedule";

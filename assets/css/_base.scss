@@ -1,8 +1,11 @@
 // Base style sheet
 
-body {
-	background: url(cover-bg.jpg);
-	background-attachment: fixed;
+body { background: none;}
+html {
+	background: url(cover-bg.jpg) 0 0 no-repeat;
+	background-position: fixed;
+    background-size: cover;
+
 }
 
 @mixin center-text{
@@ -18,6 +21,10 @@ footer{
 ul,ol {
 	list-style-position: inside;
 }
+
+// a:link, a:visited{
+//     color: #76a2d0;
+// }
 
 // Animations
 

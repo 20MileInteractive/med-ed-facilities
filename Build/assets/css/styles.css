@@ -4272,8 +4272,12 @@ a.th {
     max-width: 800px; }
 
 body {
-  background: url(../img/cover-bg.jpg);
-  background-attachment: fixed; }
+  background: none; }
+
+html {
+  background: url(../img/cover-bg.jpg) 0 0 no-repeat;
+  background-position: fixed;
+  background-size: cover; }
 
 footer div p {
   font-size: 1rem; }
@@ -7880,10 +7884,18 @@ div.ads {
     -moz-animation: attendees 1.2s ease-out;
     animation: attendees 1.2s ease-out; }
 
+#middle-outer {
+  background: #eeeeee url(../img/interior-blur2.jpg) no-repeat center center;
+  background-size: 100%; }
+
 #home-news {
-  background: #ddd;
   padding: 2rem 0;
   margin-bottom: 3rem; }
+  #home-news p {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px #333;
+    color: #fff; }
 
 #home-sponsors {
   text-align: center; }

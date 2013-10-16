@@ -107,11 +107,18 @@
 	}
 }
 
+#middle-outer {background: #eee url(interior-blur2.jpg) no-repeat center center; background-size: 100%;}
+
 #home-news{
-	background:#ddd;
+	// background:#ddd;
 	padding:2rem 0;
 	margin-bottom:3rem;
-
+	p {
+		font-size: 1.2em; 
+		font-weight: 300;
+		text-shadow: 1px 1px 3px #333;
+		color: #fff;
+	}
 	
 }
 

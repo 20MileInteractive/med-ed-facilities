@@ -12,11 +12,37 @@ html {
 	text-align:center;
 }
 
-footer{
-	div p{
-		font-size:1rem;
-	}
+$footer-color: #052633;
+
+footer {
+    margin-top: 2rem;
+    border-top: 3px solid #0B4557;
+    background: rgba(11, 69, 87, 0.5);
+    padding: 1em 0;
+    
+    p {font-size: emCalc(14px); color: $footer-color;}
+    a {color: $footer-color;}
+    a:hover {color: #fff;}
+
+    #tms-logo {
+    width: 260px; height: auto;
+    margin-bottom: .5em;
+    }
+
+    .phone {
+        display: inline-block;
+        border: 2px solid rgba(255,255,255,0.1);
+        font-size: emCalc(18px);
+        color: #fff;
+        text-align: right;
+        overflow: visible;
+        padding: .25em 1em;
+        margin-top: 34px;
+        letter-spacing: 1px;
+        }
 }
+
+
 
 ul,ol {
 	list-style-position: inside;

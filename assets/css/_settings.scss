@@ -15,7 +15,7 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
-  $body-font-color: #E5EECE;
+  $body-font-color: #233312;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -70,9 +70,9 @@
 
 // We use these to control header font styles
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+   $header-font-weight: normal;
 // $header-font-style: normal;
-   $header-font-color: #E5EECE;
+   $header-font-color: #233312;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -967,8 +967,8 @@
    $topbar-dropdown-bg: #1C2903;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
-  $topbar-dropdown-toggle-alpha: 0.5;
+  $topbar-dropdown-toggle-color: #9EC078;
+    $topbar-dropdown-toggle-alpha: 0.5;
 // $dropdown-label-color: #555;
 
 // Top menu icon styles
@@ -977,8 +977,8 @@
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+   $topbar-menu-link-color-toggled: #9EC078;
+   $topbar-menu-icon-color-toggled: #9EC078;
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;

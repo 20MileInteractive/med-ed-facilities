@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Build/*
 Build/assets/css/styles.css
 
@@ -22,3 +23,6 @@ Build/contact.html
 Build/conference-information.html
 
 Build/conference-information.html
+=======
+/Build/
+>>>>>>> a674716d527e12401afa8a26053f35e94adc945e

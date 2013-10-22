@@ -1,9 +1,26 @@
 header{
-	padding:1rem 0;
+	.logo {margin-bottom: 1em;}
+	padding:1.5rem 0;
+	background: #233312;
+	h2, h3 {text-align: center; letter-spacing: 1px;}
+	h2 {
+		font-size: 1em;
+		color: #9EC078;
+		text-transform: uppercase;
+	}
+	h3.tagline {
+		font-size: 20px;
+		color: #E5EECE;
+		font-weight: normal;
+	}
 }
 
-
+div.nav-row {background: #1C2903;}
 p#teaser{
 	@include center-text;
 }
 .top-bar-section li a.register { color: #bed889;}
+
+@media #{$small} { 
+	header h2, header h3 {text-align: left;}
+}

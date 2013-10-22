@@ -15,7 +15,7 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
-// $body-font-color: #222;
+  $body-font-color: #E5EECE;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -27,7 +27,7 @@
 // $text-direction: ltr;
 
 // We use these as default colors throughout
-// $primary-color: #2ba6cb;
+   $primary-color: #214E41;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
@@ -72,7 +72,7 @@
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-// $header-font-color: #222;
+   $header-font-color: #E5EECE;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -945,11 +945,11 @@
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
+  $topbar-bg: #1C2903;
 
 // Height and margin
 // $topbar-height: 45px;
-// $topbar-margin-bottom: emCalc(30px);
+   $topbar-margin-bottom: 0;
 
 // Control Input height for top bar
 // $topbar-input-height: 2.45em;
@@ -964,11 +964,11 @@
 // $topbar-link-font-size: emCalc(13px);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
+   $topbar-dropdown-bg: #1C2903;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 0.5;
+  $topbar-dropdown-toggle-alpha: 0.5;
 // $dropdown-label-color: #555;
 
 // Top menu icon styles

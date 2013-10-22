@@ -53,20 +53,20 @@
 	
 
 	.lead {
-		@include center-text;
+		text-align: center;
 		padding:3rem 2rem;
-		color: #fff;
+		color: #233312;
 	}
 
 	.audiences {
 		overflow:hidden;
-		min-height: 300px;
+		min-height: 360px;
 		
 		
 		a {
 			// background:rgba(140,140,140,.5);
 			display:block;
-			@include center-text;
+			text-align: center;
 			height:300px;
 			width:300px;
 			line-height:300px;
@@ -109,7 +109,11 @@
 	}
 }
 
-#middle-outer {background: #eee url(interior-blur2.jpg) no-repeat center center; background-size: 100%;}
+#middle-outer {
+	background: rgba(9, 31, 3, 0.2);
+	h3 {color: #233312; letter-spacing: 1px;}
+	// h5 {color: #fff;}
+}
 
 #home-news{
 	// background:#ddd;
@@ -118,14 +122,14 @@
 	p {
 		font-size: 1.2em; 
 		font-weight: 300;
-		text-shadow: 1px 1px 3px #333;
-		color: #fff;
+		
+		// color: #fff;
 	}
 	
 }
 
 #home-sponsors{
-	@include center-text;
+	text-align: center;
 
 	h4{
 		color:#aaa;

@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-Build/*
-Build/assets/css/styles.css
-
-Build/sponsorship-info.html
-
-Build/sponsors.html
-
-Build/sponsors.html
-
-Build/schedule.html
-
-Build/location.html
-
-Build/index.html
-
-Build/exhibitors.html
-
-Build/exhibitor-info.html
-
-Build/contact.html
-
-Build/conference-information.html
-
-Build/conference-information.html
-=======
-/Build/
->>>>>>> a674716d527e12401afa8a26053f35e94adc945e
+Build*
+build*
+.ds_store

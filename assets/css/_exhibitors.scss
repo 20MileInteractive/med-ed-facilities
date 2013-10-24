@@ -1,13 +1,6 @@
 .interior-container{
 
 
-	
-	div.first {
-		padding:250px 0 0 0;
-		background:url(http://placehold.it/1000x500&text=background-photo) center top no-repeat;
-		margin-bottom:3rem;
-	}
-
 
 	.large-4 {
 
@@ -19,7 +12,7 @@
 
 	div.exhibitor-entry {
 		&:nth-child(odd) {
-			background: #eee;
+			background: rgba(0,0,0,0.1);
 		}
 
 		p {
@@ -37,16 +30,3 @@
 
 }
 
-
-
-
-@media only screen and (min-width: 768px) {
-	.interior-container{
-		
-		div.first {
-			padding:2.5rem 0;
-			background:url(http://placehold.it/1000x500&text=background-photo) center top no-repeat;
-		}
-	}	
-
-}

@@ -427,7 +427,7 @@
 
 // We use these to style the custom select form element.
 // $custom-select-bg: #fff;
-// $custom-select-fade-to-color: #f3f3f3;
+  $custom-select-fade-to-color: #f3f3f3;
 // $custom-select-border-color: #ddd;
 // $custom-select-triangle-color: #aaa;
 // $custom-select-triangle-color-open: #222;
@@ -648,9 +648,9 @@
 //
 
 // We use these to control the background and border styles
-// $panel-bg: darken(#fff, 5%);
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+   $panel-bg: rgba(0,0,0,0.1);
+   $panel-border-style: none;
+   $panel-border-size: 0;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: 10%;

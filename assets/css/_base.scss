@@ -1,4 +1,9 @@
 // Base style sheet
+$tan: #CFC89B;
+$yellowish: #DFC72F;
+$mint-green: #E5EECE;
+$footer-color: #052633;
+
 
 body { background: none;}
 html {
@@ -8,16 +13,38 @@ html {
 
 }
 
+h2 {font-size: 42px;}
+
 @mixin center-text{
 	text-align:center;
 }
 
-.interior-container {padding-top: 1em;}
+.interior-container {
+    padding: 2em 0 6em; 
+    background: #fff; 
+    min-height: 600px;
+    position: relative;
+}
 
-$footer-color: #052633;
+
+
+
+ul,ol {
+	list-style-position: inside;
+}
+
+.body {position: relative;}
+.banner {
+    background:url(http://placehold.it/2000x500&text=background-photo) center top no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+
 
 footer {
-    margin-top: 2rem;
     border-top: 3px solid #0B4557;
     background: rgba(11, 69, 87, 0.5);
     padding: 1em 0;
@@ -43,16 +70,6 @@ footer {
         letter-spacing: 1px;
         }
 }
-
-
-
-ul,ol {
-	list-style-position: inside;
-}
-
-// a:link, a:visited{
-//     color: #76a2d0;
-// }
 
 // Animations
 

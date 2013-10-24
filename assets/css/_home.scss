@@ -1,3 +1,16 @@
+@include keyframes(lead) {
+	from{
+		// width: 50%; height: 50%;
+		opacity:0;
+	}
+
+	to{
+		// width: 100%; height: 100%;
+		opacity:100;
+	}
+
+}
+
 @include keyframes(exhibitors) {
 	from{
 		top:-150px;
@@ -49,13 +62,24 @@
 
 }
 
+#hero {
+	// background: rgba(255,255,255,0.2);
+	background: url(interior-blur2.jpg) no-repeat 0 0;
+	background-size: cover;
+	height: 392px;
+}
+
 #home-panel {
 	
 
 	.lead {
 		text-align: center;
-		padding:3rem 2rem;
-		color: #233312;
+		font-weight: 300;
+		padding:5rem 4rem 6rem;
+		// color: #233312;
+		color: #CFC89B;
+		background: url(callout-3.png) no-repeat 50% 50%;
+		@include animation(lead .8s ease-out);
 	}
 
 	.audiences {
